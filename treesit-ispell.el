@@ -8,7 +8,8 @@
 ;; Package-Requires: ((emacs "29.1"))
 
 ;;; Commentary:
-;; Run spell check against treesit text nodes
+
+;; Run spell check against treesit text nodes.
 
 ;;; Code:
 

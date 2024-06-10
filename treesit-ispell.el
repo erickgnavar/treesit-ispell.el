@@ -18,9 +18,10 @@
 (require 'treesit)
 
 ;;TODO: Add more languages, inspect their grammars and define their text elements
-(defcustom treesit-ispell-grammar-text-mapping '((python-ts-mode . (string_content comment))
-                                                 (dockerfile-ts-mode . (comment))
-                                                 (elixir-ts-mode . (quoted_content comment)))
+(defcustom treesit-ispell-grammar-text-mapping
+  '((python-ts-mode . (string_content comment))
+    (dockerfile-ts-mode . (comment))
+    (elixir-ts-mode . (quoted_content comment)))
   "All the supported text elements for each grammar."
   :type '(alist :key-type symbol :value-type sexp)
   :group 'treesit-ispell)

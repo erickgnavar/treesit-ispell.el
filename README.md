@@ -1,5 +1,7 @@
 # treesit-ispell.el
 
+[![MELPA](https://melpa.org/packages/treesit-ispell-badge.svg)](https://melpa.org/#/treesit-ispell)
+
 Run ispell on text nodes, this works using `treesit` built-in package.
 
 ## Installation
@@ -22,6 +24,13 @@ Clone this repo somewhere, and add this to your config:
              :type git
              :host github
              :repo "erickgnavar/treesit-ispell.el"))
+```
+
+### Using use-package
+
+```emacs-lisp
+(use-package treesit-ispell
+  :ensure t)
 ```
 
 ## Usage

@@ -22,6 +22,7 @@
   '((python-ts-mode . (string_content comment))
     (dockerfile-ts-mode . (comment))
     (rust-ts-mode . (line_comment))
+    (toml-ts-mode . (comment))
     (elixir-ts-mode . (quoted_content comment)))
   "All the supported text elements for each grammar."
   :type '(alist :key-type symbol :value-type sexp)
